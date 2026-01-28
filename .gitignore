@@ -1,0 +1,29 @@
+# Python
+# Raw genomic data (large)
+data/raw/genome/*
+data/raw/clinvar/*
+
+# Model inputs/outputs (large artifacts)
+data/processed/model_input/*
+data/processed/model_output/*
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Conda / environments
+.env
+.envs/
+
+# OS
+.DS_Store
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+~$*.docx
