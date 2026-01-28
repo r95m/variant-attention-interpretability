@@ -52,6 +52,7 @@ variant-attention-interpretability/
 ## Data Sources
 
 - **ClinVar**: Single-nucleotide variants annotated with clinical significance and functional class
+- **Clinvar**: Data set is from Genomic-FM Github repository, github was cloned and python script download_data.py was used to obtain raw data. To run script from raw data, please clone repo locally, and insert file path to raw file. 
 - **Reference Genome**: hg38 (FASTA + index)
 
 Raw data are stored under `data/raw/`. All downstream datasets used for modeling and analysis are stored under `data/processed/`.
